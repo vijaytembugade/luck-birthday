@@ -26,8 +26,10 @@ const Date = () => {
     
         if (sum % number === 0) {
           setLucky(true);
+          setUnLucky(false)
         } else {
           setUnLucky(true);
+          setLucky(false)
         }
     }else{
         alert("Invalid Inputs! Please Check date and number")
